@@ -22,7 +22,7 @@ run the web.exe file
 Open another command promt and run the following cmds.
 
 ### Login 
-```http
+```
 curl "http://localhost:4000?username=user&password=user@123"
 ```
 Login returns a token which should be included as a http header when calling other api's like home, addBook, deleteBook
@@ -46,14 +46,14 @@ This will list the books present in regularUser.csv  and adminUser.csv according
 Add Book requires few params names Book Name, Author, Publication Year to be sent when calling /addBook api. 
 Please refer the following cmd.
 
-```http
+```
 curl -H "Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsImV4cCI6MTcxNTE1ODU5MiwicGFzc3dvcmQiOiJ1c2VyQDEyMyIsInVzZXJuYW1lIjoidXNlciJ9.V7dPVFCXY7M0Nb1QhdJIIUmePxGvBUc9HyXFqwl0Ssw" -d "Book Name=jinglebells&Author=Santa&Publication Year=1990" http://localhost:4000/addBook
 
 ```
 ### deleteBook
 Add Book requires  Book Name param to be sent when calling /deleteBook api. 
 Please refer the following cmd.
-```http
+```
 curl -H "Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsImV4cCI6MTcxNTE1ODU5MiwicGFzc3dvcmQiOiJ1c2VyQDEyMyIsInVzZXJuYW1lIjoidXNlciJ9.V7dPVFCXY7M0Nb1QhdJIIUmePxGvBUc9HyXFqwl0Ssw" -d "Book Name=jinglebells" http://localhost:4000/deleteBook
 
 ```
