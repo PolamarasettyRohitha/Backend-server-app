@@ -34,7 +34,7 @@ Use  the file users.txt to find list of users and their detials available to use
 ### Home
 Include the token returned by /login api as a http Header for calling /home api as shown below
 
-```http
+```
 curl -H "Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsImV4cCI6MTcxNTE1ODU5MiwicGFzc3dvcmQiOiJ1c2VyQDEyMyIsInVzZXJuYW1lIjoidXNlciJ9.V7dPVFCXY7M0Nb1QhdJIIUmePxGvBUc9HyXFqwl0Ssw" http://localhost:4000/home
 ```
 
