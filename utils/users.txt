@@ -1,0 +1,11 @@
+Regular users :
+
+Name       Password 
+user       user@123
+user1      user1@123
+
+Admin users :
+
+Name      Password
+admin     admin@123
+admin1    admin@123
