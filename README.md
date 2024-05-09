@@ -1,6 +1,5 @@
 
-# Backend Developer
-
+# Librabry management backend server in go
 An application for a library of books. It will have 2 types of users. Admin user and a Regular user.
 Admin user has the privilege to add or delete books.
 
